@@ -1,0 +1,52 @@
+.bubi-list{
+	width: 600px;
+}
+.bubi-c1{
+	width: 200px;
+	float: left;
+	overflow: hidden;
+}
+.bubi-c2{
+	width: 200px;
+	float: left;
+	overflow: hidden;
+}
+.bubi-c3{
+	width: 200px;
+	float: left;
+	overflow: hidden;
+}
+.bubi-separator{
+	width: 100%;
+	border-top: 1px solid #DFDFDF;
+	height: 10px;
+	margin-top: 10px;
+}
+.bubi-head{
+	color: #21759B;
+}
+.bubi-message{
+	border: 1px solid #21759B;
+	background-color: #eeeeee;
+	color: #21759B;
+	padding: 10px;
+	width: 600px;
+	text-align: center;
+}
+.bubi-red{
+	color: #D54E21;
+	font-weight: bold;
+}
+
+/* EASY FLOATING BOX */
+.clearfix:after{
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+/* Hide from IE-mac /*/
+* html .clearfix{1%;}
+/* End hide from IE-mac */
+/* EASY FLOATING BOX - END */
